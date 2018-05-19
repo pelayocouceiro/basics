@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint:css": "stylelint 'stylesheets/**/*.css'",
+    "lint:css": "stylelint 'stylesheets/**/*.css' --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

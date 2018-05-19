@@ -1,6 +1,64 @@
-
-.helloWorld {
-  height: 50px;
-  background: #ff0000;
-  width: 50px;
+html,
+body,
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
+.home {
+  background: url('./../assets/home-full-screen-image.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.header {
+  align-items: center;
+  background-color: red;
+  display: flex;
+  height: 70px;
+  padding: 20px;
+}
+
+.header .logo {
+  flex: 3;
+}
+
+.header .logo img {
+  height: 20px;
+}
+
+.header .navbar {
+  display: flex;
+  flex: 2;
+  justify-content: flex-end;
+}
+
+.navbar .navbar-list {
+  align-items: center;
+  display: flex;
+}
+
+.navbar .navbar-list li {
+  color: #ffffff;
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.navbar .navbar-list li:hover {
+  border-bottom: 1px solid #ffffff;
+  color: #000000;
+  cursor: pointer;
+}
+
+/*  TABLET MEDIA QUERY */
+@media(min-width: 700px) {}
+
+/* DESKTOP MEDIA QUERY */
+
+@media(min-width: 979px) {}
+
